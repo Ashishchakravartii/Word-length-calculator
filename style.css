@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vmax;
+
+}
+.box h1{
+    font-weight: 500;
+    font-family: "Gilroy";
+    color: white;
+    font-size: 3vmax;
+}
+form input{
+    width: 20vmax;
+    height: 2.5vmax;
+    border-radius: 10px;
+    text-align: center;
+}
+.out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outH3{
+    /* width: 5vmax; */
+    /* height: 5vmax; */
+    background-color: rgb(98, 180, 196);
+    border-radius: 50%;
+    color: black;
+    font-size: 4vmax;
+    padding: 1.2vmax 2.4vmax;
+}
+
+.box button{
+    padding: 0.4vmax 2vmax;
+    border-radius: 0.7vmax;
+    font-family: "Roboto";
+    background-color: rgb(141, 207, 207);
+    font-weight: 400;
+}
